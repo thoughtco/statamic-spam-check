@@ -1,0 +1,28 @@
+{
+    "name": "thoughtco/statamic-spam-check",
+    "description": "Checks form submission content against a spam classifier",
+    "autoload": {
+        "psr-4": {
+            "Thoughtco\\StatamicSpamCheck\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan Mitchell"
+        }
+    ],
+    "support": {
+        "email": "help@thoughtcollective.com"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Spam Check",
+            "description": "Checks form submission content against a spam classifier"
+        },
+        "laravel": {
+            "providers": [
+                "Thoughtco\\StatamicSpamCheck\\ServiceProvider"
+            ]
+        }
+    }
+}
