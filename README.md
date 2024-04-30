@@ -1,4 +1,4 @@
-# Statamic Span Cgeck
+# Statamic Spam Check
 
 This addon checks any form submission content against the [Spam Check API](https://apilayer.com/marketplace/spamchecker-api#authentication).
 
